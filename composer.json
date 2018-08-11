@@ -1,0 +1,23 @@
+{
+  "name": "davidwofford/phppokeapi",
+  "description": "PhpPokeApi is a simple wrapper for making requests to the poke api - https://pokeapi.co/",
+  "keywords": ["api", "pokemon", "php"],
+  "homepage": "https://github.com/davidwofford/PhpPokeApi",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Wofford",
+      "email": "dwoffordjr@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "DavidWofford\\PhpPokeApi\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^7.1",
+    "ext-json": "*",
+    "ext-curl": "*"
+  }
+}
