@@ -7,7 +7,7 @@
  */
 namespace DavidWofford\PhpPokeApi;
 
-interface constants
+interface PhpPokeApiConstants
 {
     /**
      * @const string Stores the base url to call for the api
