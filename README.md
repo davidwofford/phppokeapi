@@ -83,6 +83,13 @@ This will return:
 ]
 ```
 
+### Configuration
+If you are having issues with your ssl cert being denied locally you can add this define in your project to bypass the ssl cert check.
+
+`define('PHP_POKE_API_BYPASS_SSL', true);`
+
+**DO NOT TURN THIS ON IN PRODUCTION**
+
 ## Resources
 
 - [Pokeapi documentation](https://pokeapi.co/docsv2/)
